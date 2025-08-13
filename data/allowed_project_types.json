@@ -1,0 +1,299 @@
+{
+  "": {
+    "avatar": "",
+    "gitlab_ci_path": ".gitlab-ci.yml@pl.rachuna-net/cicd/gitlab-ci:v1.0.2",
+    "tags": [],
+    "ci_variables": {},
+    "sonarqube": {
+      "sonarqube_quality_gate_status": true,
+      "sonarqube_bugs": true,
+      "sonarqube_code_smells": true,
+      "sonarqube_coverage": true,
+      "sonarqube_duplicated_lines_density": true,
+      "sonarqube_lines_of_code": true,
+      "sonarqube_reliability_rating": true,
+      "sonarqube_security_rating": true,
+      "sonarqube_technical_debt": true,
+      "sonarqube_maintainability_rating": true,
+      "sonarqube_vulnerabilities": true
+    }
+  },
+  "ansible-inventory": {
+    "avatar": "ansible",
+    "gitlab_ci_path": ".gitlab-ci.yml@pl.rachuna-net/cicd/gitlab-ci:v1.0.2",
+    "tags": [
+      "ansible",
+      "ansible-inventory"
+    ],
+    "ci_variables": {},
+    "sonarqube": {
+      "sonarqube_quality_gate_status": true,
+      "sonarqube_bugs": true,
+      "sonarqube_code_smells": true,
+      "sonarqube_coverage": false,
+      "sonarqube_duplicated_lines_density": true,
+      "sonarqube_lines_of_code": true,
+      "sonarqube_reliability_rating": true,
+      "sonarqube_security_rating": true,
+      "sonarqube_technical_debt": true,
+      "sonarqube_maintainability_rating": true,
+      "sonarqube_vulnerabilities": true
+    }
+  },
+  "ansible-playbook": {
+    "avatar": "ansible",
+    "gitlab_ci_path": "infrastructure/ansible-playbook.yml@pl.rachuna-net/cicd/gitlab-ci:v1.0.2",
+    "tags": [
+      "ansible",
+      "ansible-playbook"
+    ],
+    "ci_variables": {},
+    "sonarqube": {
+      "sonarqube_quality_gate_status": true,
+      "sonarqube_bugs": true,
+      "sonarqube_code_smells": true,
+      "sonarqube_coverage": false,
+      "sonarqube_duplicated_lines_density": true,
+      "sonarqube_lines_of_code": true,
+      "sonarqube_reliability_rating": true,
+      "sonarqube_security_rating": true,
+      "sonarqube_technical_debt": true,
+      "sonarqube_maintainability_rating": true,
+      "sonarqube_vulnerabilities": true
+    }
+  },
+  "ansible-role": {
+    "avatar": "ansible",
+    "gitlab_ci_path": "infrastructure/ansible-roles.yml@pl.rachuna-net/cicd/gitlab-ci:v1.0.2",
+    "tags": [
+      "ansible",
+      "ansible-role"
+    ],
+    "ci_variables": {},
+    "sonarqube": {
+      "sonarqube_quality_gate_status": true,
+      "sonarqube_bugs": true,
+      "sonarqube_code_smells": true,
+      "sonarqube_coverage": false,
+      "sonarqube_duplicated_lines_density": true,
+      "sonarqube_lines_of_code": true,
+      "sonarqube_reliability_rating": true,
+      "sonarqube_security_rating": true,
+      "sonarqube_technical_debt": true,
+      "sonarqube_maintainability_rating": true,
+      "sonarqube_vulnerabilities": true
+    }
+  },
+  "container": {
+    "avatar": "container",
+    "gitlab_ci_path": "containers/image-builder.yml@pl.rachuna-net/cicd/gitlab-ci:v1.0.2",
+    "tags": [
+      "docker"
+    ],
+    "ci_variables": {},
+    "sonarqube": {
+      "sonarqube_quality_gate_status": true,
+      "sonarqube_bugs": true,
+      "sonarqube_code_smells": true,
+      "sonarqube_coverage": false,
+      "sonarqube_duplicated_lines_density": false,
+      "sonarqube_lines_of_code": false,
+      "sonarqube_reliability_rating": true,
+      "sonarqube_security_rating": true,
+      "sonarqube_technical_debt": false,
+      "sonarqube_maintainability_rating": true,
+      "sonarqube_vulnerabilities": true
+    }
+  },
+  "docs": {
+    "avatar": "gohugo",
+    "gitlab_ci_path": "docs/gohugo.yml@pl.rachuna-net/cicd/gitlab-ci:v1.0.2",
+    "tags": [
+      "gohugo"
+    ],
+    "ci_variables": {},
+    "sonarqube": {
+      "sonarqube_quality_gate_status": false,
+      "sonarqube_bugs": false,
+      "sonarqube_code_smells": false,
+      "sonarqube_coverage": false,
+      "sonarqube_duplicated_lines_density": false,
+      "sonarqube_lines_of_code": false,
+      "sonarqube_reliability_rating": false,
+      "sonarqube_security_rating": false,
+      "sonarqube_technical_debt": false,
+      "sonarqube_maintainability_rating": false,
+      "sonarqube_vulnerabilities": false
+    }
+  },
+  "gitlab-component": {
+    "avatar": "gitlab-component",
+    "gitlab_ci_path": "cicd/gitlab-components.yml@pl.rachuna-net/cicd/gitlab-ci:v1.0.2",
+    "tags": [
+      "gitlab-component"
+    ],
+    "ci_variables": {},
+    "sonarqube": {
+      "sonarqube_quality_gate_status": false,
+      "sonarqube_bugs": true,
+      "sonarqube_code_smells": true,
+      "sonarqube_coverage": false,
+      "sonarqube_duplicated_lines_density": false,
+      "sonarqube_lines_of_code": false,
+      "sonarqube_reliability_rating": true,
+      "sonarqube_security_rating": true,
+      "sonarqube_technical_debt": false,
+      "sonarqube_maintainability_rating": true,
+      "sonarqube_vulnerabilities": true
+    }
+  },
+  "gitlab-profile": {
+    "avatar": "gitlab-profile",
+    "gitlab_ci_path": ".gitlab-ci.yml@pl.rachuna-net/cicd/gitlab-ci:v1.0.2",
+    "tags": [
+      "gitlab-profile"
+    ],
+    "ci_variables": {},
+    "sonarqube": {
+      "sonarqube_quality_gate_status": true,
+      "sonarqube_bugs": true,
+      "sonarqube_code_smells": true,
+      "sonarqube_coverage": false,
+      "sonarqube_duplicated_lines_density": false,
+      "sonarqube_lines_of_code": false,
+      "sonarqube_reliability_rating": true,
+      "sonarqube_security_rating": true,
+      "sonarqube_technical_debt": true,
+      "sonarqube_maintainability_rating": true,
+      "sonarqube_vulnerabilities": true
+    }
+  },
+  "gitlab-ci": {
+    "avatar": "gitlab",
+    "gitlab_ci_path": "cicd/gitlab-ci.yml@pl.rachuna-net/cicd/gitlab-ci:v1.0.2",
+    "tags": [
+      "gitlab-ci"
+    ],
+    "ci_variables": {},
+    "sonarqube": {
+      "sonarqube_quality_gate_status": true,
+      "sonarqube_bugs": true,
+      "sonarqube_code_smells": true,
+      "sonarqube_coverage": false,
+      "sonarqube_duplicated_lines_density": false,
+      "sonarqube_lines_of_code": false,
+      "sonarqube_reliability_rating": true,
+      "sonarqube_security_rating": true,
+      "sonarqube_technical_debt": false,
+      "sonarqube_maintainability_rating": true,
+      "sonarqube_vulnerabilities": true
+    }
+  },
+  "packer": {
+    "avatar": "packer",
+    "gitlab_ci_path": "infrastructure/packer.yml@pl.rachuna-net/cicd/gitlab-ci:v1.0.2",
+    "tags": [
+      "packer"
+    ],
+    "ci_variables": {},
+    "sonarqube": {
+      "sonarqube_quality_gate_status": false,
+      "sonarqube_bugs": false,
+      "sonarqube_code_smells": false,
+      "sonarqube_coverage": false,
+      "sonarqube_duplicated_lines_density": false,
+      "sonarqube_lines_of_code": false,
+      "sonarqube_reliability_rating": false,
+      "sonarqube_security_rating": false,
+      "sonarqube_technical_debt": false,
+      "sonarqube_maintainability_rating": false,
+      "sonarqube_vulnerabilities": false
+    }
+  },
+    "opentofu": {
+    "avatar": "opentofu",
+    "gitlab_ci_path": "infrastructure/opentofu.yml@pl.rachuna-net/cicd/gitlab-ci:v1.0.2",
+    "tags": [
+      "opentofu"
+    ],
+    "ci_variables": {},
+    "sonarqube": {
+      "sonarqube_quality_gate_status": true,
+      "sonarqube_bugs": true,
+      "sonarqube_code_smells": true,
+      "sonarqube_coverage": false,
+      "sonarqube_duplicated_lines_density": true,
+      "sonarqube_lines_of_code": true,
+      "sonarqube_reliability_rating": true,
+      "sonarqube_security_rating": true,
+      "sonarqube_technical_debt": true,
+      "sonarqube_maintainability_rating": true,
+      "sonarqube_vulnerabilities": true
+    }
+  },
+  "opentofu-module": {
+    "avatar": "opentofu",
+    "gitlab_ci_path": "infrastructure/opentofu-module.yml@pl.rachuna-net/cicd/gitlab-ci:v1.0.2",
+    "tags": [
+      "opentofu",
+      "opentofu-module"
+    ],
+    "ci_variables": {},
+    "sonarqube": {
+      "sonarqube_quality_gate_status": true,
+      "sonarqube_bugs": true,
+      "sonarqube_code_smells": true,
+      "sonarqube_coverage": false,
+      "sonarqube_duplicated_lines_density": true,
+      "sonarqube_lines_of_code": true,
+      "sonarqube_reliability_rating": true,
+      "sonarqube_security_rating": true,
+      "sonarqube_technical_debt": true,
+      "sonarqube_maintainability_rating": true,
+      "sonarqube_vulnerabilities": true
+    }
+  },
+  "terraform": {
+    "avatar": "terraform",
+    "gitlab_ci_path": "infrastructure/terraform.yml@pl.rachuna-net/cicd/gitlab-ci:v1.0.2",
+    "tags": [
+      "terraform"
+    ],
+    "ci_variables": {},
+    "sonarqube": {
+      "sonarqube_quality_gate_status": true,
+      "sonarqube_bugs": true,
+      "sonarqube_code_smells": true,
+      "sonarqube_coverage": false,
+      "sonarqube_duplicated_lines_density": true,
+      "sonarqube_lines_of_code": true,
+      "sonarqube_reliability_rating": true,
+      "sonarqube_security_rating": true,
+      "sonarqube_technical_debt": true,
+      "sonarqube_maintainability_rating": true,
+      "sonarqube_vulnerabilities": true
+    }
+  },
+  "terraform-module": {
+    "avatar": "terraform",
+    "gitlab_ci_path": "infrastructure/terraform-module.yml@pl.rachuna-net/cicd/gitlab-ci:v1.0.2",
+    "tags": [
+      "terraform",
+      "terraform-module"
+    ],
+    "ci_variables": {},
+    "sonarqube": {
+      "sonarqube_quality_gate_status": true,
+      "sonarqube_bugs": true,
+      "sonarqube_code_smells": true,
+      "sonarqube_coverage": false,
+      "sonarqube_duplicated_lines_density": true,
+      "sonarqube_lines_of_code": true,
+      "sonarqube_reliability_rating": true,
+      "sonarqube_security_rating": true,
+      "sonarqube_technical_debt": true,
+      "sonarqube_maintainability_rating": true,
+      "sonarqube_vulnerabilities": true
+    }
+  }
+}

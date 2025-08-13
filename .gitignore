@@ -1,0 +1,15 @@
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+.env
+.vscode/
+imports.tf
+.yamllint
+.tf*
+pl.rachuna-net/infrastructure/terraform/consul.tf
+pl.rachuna-net/infrastructure/terraform/home.rachuna-net.pl.tf
+pl.rachuna-net/infrastructure/terraform/router.rachuna-net.pl.tf
+old
+.tfplan.json
+.envrc
