@@ -1,5 +1,5 @@
 {
   "extends": [
-    "gitlab>pl.rachuna-net/discipline//renovate/preset/gitlab-ci.json"
+    "gitlab>pl.rachuna-net/discipline//renovate/preset/terraform-iac.json"
   ]
 }

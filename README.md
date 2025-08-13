@@ -1,4 +1,4 @@
-# <img src=".gitlab/avatar.png" alt="opentofu" height="20"/>  
+# <img src=".gitlab/avatar.png" alt="opentofu" height="20"/>  IAC-GITLAB
 
 Repozytorium zawierające infrastrukturę jako kod (IaC) do zarządzania środowiskiem GitLab przy użyciu Terraform. Umożliwia automatyzację tworzenia, konfiguracji i utrzymania zasobów GitLab.
 
