@@ -1,6 +1,6 @@
 locals {
   parent_name  = "pl.rachuna-net/cicd/components"
-  project_type = "container"
+  project_type = "gitlab-component"
 }
 
 data "vault_kv_secret_v2" "auth_github" {
