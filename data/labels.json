@@ -21,7 +21,7 @@
     },
     "tech::opentofu": {
         "description": "OpenTofu related issues",
-        "color": "#9400D3"
+        "color": "#FFEE00"
     },
     "critical": {
         "description": "Critical issues",
