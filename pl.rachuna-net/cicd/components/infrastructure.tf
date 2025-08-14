@@ -2,7 +2,7 @@ module "infrastructure" {
   source = "git@gitlab.com:pl.rachuna-net/infrastructure/opentofu/modules/gitlab-project.git?ref=v1.0.0"
 
   name        = "infrastructure"
-  description = "Komponentu odpowiedzialne za zarządzanie infrastrukturą."
+  description = "Komponent odpowiedzialny za zarządzanie infrastrukturą."
   visibility  = "public"
 
   parent_group = local.parent_name

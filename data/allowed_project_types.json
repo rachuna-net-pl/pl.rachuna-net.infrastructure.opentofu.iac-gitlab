@@ -1,7 +1,7 @@
 {
   "": {
     "avatar": "",
-    "gitlab_ci_path": ".gitlab-ci.yml@pl.rachuna-net/cicd/gitlab-ci:vv1.0.0",
+    "gitlab_ci_path": ".gitlab-ci.yml@pl.rachuna-net/cicd/gitlab-ci:v1.0.0",
     "tags": [],
     "ci_variables": {},
     "sonarqube": {
@@ -20,7 +20,7 @@
   },
   "ansible-inventory": {
     "avatar": "ansible",
-    "gitlab_ci_path": ".gitlab-ci.yml@pl.rachuna-net/cicd/gitlab-ci:vv1.0.0",
+    "gitlab_ci_path": ".gitlab-ci.yml@pl.rachuna-net/cicd/gitlab-ci:v1.0.0",
     "tags": [
       "ansible",
       "ansible-inventory"
@@ -42,7 +42,7 @@
   },
   "ansible-playbook": {
     "avatar": "ansible",
-    "gitlab_ci_path": "infrastructure/ansible-playbook.yml@pl.rachuna-net/cicd/gitlab-ci:vv1.0.0",
+    "gitlab_ci_path": "infrastructure/ansible-playbook.yml@pl.rachuna-net/cicd/gitlab-ci:v1.0.0",
     "tags": [
       "ansible",
       "ansible-playbook"
@@ -64,7 +64,7 @@
   },
   "ansible-role": {
     "avatar": "ansible",
-    "gitlab_ci_path": "infrastructure/ansible-roles.yml@pl.rachuna-net/cicd/gitlab-ci:vv1.0.0",
+    "gitlab_ci_path": "infrastructure/ansible-roles.yml@pl.rachuna-net/cicd/gitlab-ci:v1.0.0",
     "tags": [
       "ansible",
       "ansible-role"
@@ -86,7 +86,7 @@
   },
   "container": {
     "avatar": "container",
-    "gitlab_ci_path": "containers/image-builder.yml@pl.rachuna-net/cicd/gitlab-ci:vv1.0.0",
+    "gitlab_ci_path": "containers/image-builder.yml@pl.rachuna-net/cicd/gitlab-ci:v1.0.0",
     "tags": [
       "docker"
     ],
@@ -107,7 +107,7 @@
   },
   "docs": {
     "avatar": "gohugo",
-    "gitlab_ci_path": "docs/gohugo.yml@pl.rachuna-net/cicd/gitlab-ci:vv1.0.0",
+    "gitlab_ci_path": "docs/gohugo.yml@pl.rachuna-net/cicd/gitlab-ci:v1.0.0",
     "tags": [
       "gohugo"
     ],
@@ -128,7 +128,7 @@
   },
   "gitlab-component": {
     "avatar": "gitlab-component",
-    "gitlab_ci_path": "cicd/gitlab-components.yml@pl.rachuna-net/cicd/gitlab-ci:vv1.0.0",
+    "gitlab_ci_path": "cicd/gitlab-components.yml@pl.rachuna-net/cicd/gitlab-ci:v1.0.0",
     "tags": [
       "gitlab-component"
     ],
@@ -149,7 +149,7 @@
   },
   "gitlab-profile": {
     "avatar": "gitlab-profile",
-    "gitlab_ci_path": ".gitlab-ci.yml@pl.rachuna-net/cicd/gitlab-ci:vv1.0.0",
+    "gitlab_ci_path": ".gitlab-ci.yml@pl.rachuna-net/cicd/gitlab-ci:v1.0.0",
     "tags": [
       "gitlab-profile"
     ],
@@ -170,7 +170,7 @@
   },
   "gitlab-ci": {
     "avatar": "gitlab",
-    "gitlab_ci_path": "cicd/gitlab-ci.yml@pl.rachuna-net/cicd/gitlab-ci:vv1.0.0",
+    "gitlab_ci_path": "cicd/gitlab-ci.yml@pl.rachuna-net/cicd/gitlab-ci:v1.0.0",
     "tags": [
       "gitlab-ci"
     ],
@@ -191,7 +191,7 @@
   },
   "packer": {
     "avatar": "packer",
-    "gitlab_ci_path": "infrastructure/packer.yml@pl.rachuna-net/cicd/gitlab-ci:vv1.0.0",
+    "gitlab_ci_path": "infrastructure/packer.yml@pl.rachuna-net/cicd/gitlab-ci:v1.0.0",
     "tags": [
       "packer"
     ],
