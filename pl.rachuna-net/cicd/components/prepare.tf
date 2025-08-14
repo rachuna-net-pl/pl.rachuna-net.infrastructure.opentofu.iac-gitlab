@@ -2,7 +2,7 @@ module "prepare" {
   source = "git@gitlab.com:pl.rachuna-net/infrastructure/opentofu/modules/gitlab-project.git?ref=v1.0.0"
 
   name        = "prepare"
-  description = "Komponent do przygotowania procesu CI/CD."
+  description = "Komponent odpowiedzialny za przygotowanie procesu CI/CD."
   visibility  = "public"
 
   parent_group = local.parent_name

@@ -1,9 +1,10 @@
-module "containers" {
+module "gohugo" {
   source = "git@gitlab.com:pl.rachuna-net/infrastructure/opentofu/modules/gitlab-project.git?ref=v1.0.0"
 
-  name        = "containers"
-  description = "Komponent odpowiedzialny za budowanie i publikacje kontenerów."
+  name        = "gohugo"
+  description = "Kontener z narzędziem gohugo"
   visibility  = "public"
+  avatar      = "gohugo"
 
   parent_group = local.parent_name
   project_type = local.project_type
@@ -17,12 +18,12 @@ module "containers" {
     data.vault_kv_secret_v2.auth_github.data["GITHUB_OWNER"],
     data.vault_kv_secret_v2.auth_github.data["GITHUB_TOKEN"],
     data.vault_kv_secret_v2.auth_github.data["GITHUB_OWNER"],
-    "${replace(local.parent_name, "/", ".")}.${module.containers.name}"
+    "${replace(local.parent_name, "/", ".")}.${module.gohugo.name}"
   )
 }
 
-resource "github_repository" "pl-rachuna-net-cicd-components-containers" {
-  name        = "${replace(local.parent_name, "/", ".")}.${module.containers.name}"
-  description = module.containers.description
+resource "github_repository" "pl-rachuna-net-containers-gohugo" {
+  name        = "${replace(local.parent_name, "/", ".")}.${module.gohugo.name}"
+  description = module.gohugo.description
   visibility  = "public"
 }
